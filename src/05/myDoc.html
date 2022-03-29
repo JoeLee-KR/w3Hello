@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter5 Test</title>
+</head>
+<body>
+    <form name="joetest1" action="nextpage1.php">
+        <fieldset width="50%">
+            <legend>사용자정보입력</legend>
+            <label>아이디: <input type="text" id="user_id" size="10"></label>
+            <label>패스워드: <input type="password" id="user_id" size="10"></label>
+            <input type="submit" value="로그인">
+        </fieldset>
+    </form>
+    <form name="joetest2" action="nextpage2.php">
+        <fieldset border="0">
+            <legend>추가정보입력테스트</legend>
+            <label for="_search">검색: </label>
+            <input id="_search" type="search" id="user_id" size="10">
+            <label>패스워드: <input type="password" id="user_id" size="10"></label>
+            <input type="submit" value="로그인">
+        </fieldset>
+        <div id="_bottons">
+            <input type="submit" value="로그인">
+            <input type="reset"  value="취소">
+            <input type="button" value="Botton입니다.">
+            <input type="image" src="images/login.png" alt="img형 버튼, is Submit?">
+        </div>
+        <fieldset> <legend>DropDown List</legend>
+        <label for id="_drop1">상품선택</label>
+        <select>
+            <option value="_drop1_OPT1">선택1</option>
+            <option value="_drop1_OPT2">선택2</option>
+            <option value="_drop1_OPT3">선택3</option>
+        </select>
+        </fieldset>
+        <fieldset> <legend>DataList</legend>
+            <label for id="_drop2">상품선택 w/datalist & input</label>
+            <input type="text" id="_drop2" list="_datalist2">
+            <datalist id="_datalist2">
+                <option value="_drop2_OPT1">x선택1</option>
+                <option value="_drop2_OPT2">x선택2</option>
+                <option value="_drop2_OPT3">x선택3</option>
+            </datalist>
+        </fieldset>
+        <fieldset> <legend> button</legend>
+            <button type="submit">로그인_</button>
+            <button type="reset">취소_</button>
+            <button type="button">Botton입니다._</button>
+            <button type="image" src="images/login.png" alt="img형 버튼, is Submit?">AAA</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 git pull -f  git@gitjoe:joelee-kr/w3Hello.git 
+=======
+git pull git@gitjoe:joelee-kr/w3Hello.git 
+#git pull -f  git@gitjoe:joelee-kr/w3Hello.git 
+#git pull -f  git@gitjoe:joelee-kr/w3Hello.git master
+>>>>>>> cec25c0d8dddc280d3985507b281b3394d87fb2b
 #
 #git -f -u
